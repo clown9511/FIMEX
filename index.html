@@ -8,10 +8,55 @@
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a paragraph styled with Poppins font.</p>
-    </div>
+
+    <!-- ENCABEZADO -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="src/img/logo_fimex.png" width="50" height="50" alt="logo_fimex">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 ml-auto"></form>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Tu Título Aquí</h2>
+                <p>Tu texto aquí. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                <div class="social-icons mt-3">
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="src/img/facebook_icon.png" width="30" height="30" alt="Facebook">
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="src/img/twitter_icon.png" width="30" height="30" alt="Twitter">
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="src/img/instagram_icon.png" width="30" height="30" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="src/img/imagen1.jpg" class="img-fluid" alt="Imagen1">
+            </div>
+        </div>
+    </section>
+
 
     <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
