@@ -1,0 +1,26 @@
+{
+  "name": "fimex",
+  "version": "1.0.0",
+  "description": "Importacion Exportacion International",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass -w src/scss:build/sass",
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clown9511/FIMEX.git"
+  },
+  "author": "Dayron Calderius Delgado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clown9511/FIMEX/issues"
+  },
+  "homepage": "https://github.com/clown9511/FIMEX#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "gulp": "^5.0.0",
+    "gulp-sass": "^6.0.0",
+    "sass": "^1.83.0"
+  }
+}
